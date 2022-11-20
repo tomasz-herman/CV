@@ -1,0 +1,101 @@
+\documentclass[margin,line]{res}
+%\nonstopmode
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+% if using pdflatex:
+\setlength{\pdfpagewidth}{\paperwidth}
+\setlength{\pdfpageheight}{\paperheight} 
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+
+\begin{document}
+
+\name{Tomasz Herman \vspace*{.1in}}
+
+\begin{resume}
+\section{\sc Contact Information}
+\vspace{.05in}
+\begin{tabular}{@{}p{2in}p{3in}}
+     Poland     & {\it Phone:}  (+48) 606 159 378 \\ & {\it E-mail:} tomasz.herman@pm.me
+    
+\end{tabular}
+
+
+\section{\sc Education}
+	{\bf Warsaw University of Technology}, Warsaw, Poland\\
+	%{\em}
+	\vspace*{-.1in}
+	\begin{list1}
+	\item[] Master of Engineering, {\bf Computer Science,}\newline spec. {\bf Designing CAD/CAM systems}, March 2021 - October 2022
+    \vspace*{.05in}
+	
+	\vspace*{.05in}
+	\end{list1}
+
+	{\bf Warsaw University of Technology}, Warsaw, Poland\\
+	%{\em}
+	\vspace*{-.1in}
+	\begin{list1}
+	\item[] Bachelor of Engineering, {\bf Computer Science}, October 2017 - March 2021
+	\vspace*{.05in}
+	\end{list1}
+	
+
+\section{\sc Professional Experience}
+    
+    {\bf 03.2022 - currently} Teaching at {\bf Warsaw University of Technology}
+    \begin{itemize}
+    	\item Conducting laboratories on:
+			\begin{list2}
+				\item Programming in Graphical Environment \item Programming 3 - Advanced
+			\end{list2}
+    	\item Technologies: C\#, C++, WinForms, WPF
+    \end{itemize}
+    
+	{\bf 06.2022 - 07.2022} Research Project at {\bf CD PROJECT RED}
+	\begin{itemize}
+	    \item Developing tools and algorithms for virtual environment
+	    \item Automating processes useful for creating video games
+		\item Technologies: C++, Blender, Python
+	\end{itemize}
+
+	{\bf 07.2020 - 05.2022} Internship at {\bf Samsung R\&D Poland}
+	\begin{itemize}
+		\item UI applications development
+		\item Developing testing platform for Android
+		\item Technologies: Java, Kotlin, Android, C\#, Python
+	\end{itemize}
+
+
+\section{\sc Skills and Technical Expertise}
+	
+	\begin{list2}
+		\item Algorithms and data structures
+		\item Virtual environment algorithms
+		\item Strong {\bf Java} and {\bf C\#} programming skills
+		\item Experience with {\bf C++, Python, Linux, OpenGL, Unity and Unreal Engine}
+	\end{list2}
+
+\end{resume}
+
+\end{document}
+
+
+
+
